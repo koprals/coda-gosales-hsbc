@@ -42414,3 +42414,26 @@ Dispatcher::_invoke() - C:\xampp\htdocs\cms-default\lib\Cake\Routing\Dispatcher.
 Dispatcher::dispatch() - C:\xampp\htdocs\cms-default\lib\Cake\Routing\Dispatcher.php, line 162
 [main] - APP\webroot\index.php, line 114
 
+2015-11-24 15:20:52 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cms-default\app\Controller\TemplateController.php, line 25]
+Trace:
+TemplateController::LeftMenuSmall() - C:\xampp\htdocs\cms-default\app\Controller\TemplateController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - C:\xampp\htdocs\cms-default\lib\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - C:\xampp\htdocs\cms-default\lib\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - C:\xampp\htdocs\cms-default\lib\Cake\Routing\Dispatcher.php, line 162
+Object::requestAction() - C:\xampp\htdocs\cms-default\lib\Cake\Core\Object.php, line 106
+include - APP\View\Elements\leftnavigation_small.ctp, line 1
+View::_evaluate() - C:\xampp\htdocs\cms-default\lib\Cake\View\View.php, line 931
+View::_render() - C:\xampp\htdocs\cms-default\lib\Cake\View\View.php, line 893
+View::_renderElement() - C:\xampp\htdocs\cms-default\lib\Cake\View\View.php, line 1191
+View::element() - C:\xampp\htdocs\cms-default\lib\Cake\View\View.php, line 408
+include - APP\View\Layouts\main.ctp, line 128
+View::_evaluate() - C:\xampp\htdocs\cms-default\lib\Cake\View\View.php, line 931
+View::_render() - C:\xampp\htdocs\cms-default\lib\Cake\View\View.php, line 893
+View::renderLayout() - C:\xampp\htdocs\cms-default\lib\Cake\View\View.php, line 525
+View::render() - C:\xampp\htdocs\cms-default\lib\Cake\View\View.php, line 470
+Controller::render() - C:\xampp\htdocs\cms-default\lib\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - C:\xampp\htdocs\cms-default\lib\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - C:\xampp\htdocs\cms-default\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 114
+
